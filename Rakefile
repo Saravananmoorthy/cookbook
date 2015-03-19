@@ -1,4 +1,4 @@
-SSH = 'ssh -l vagrant'
+SSH = 'ssh -A -l vagrant'
 
 desc "Run Puppet on ENV['CLIENT']"
 
