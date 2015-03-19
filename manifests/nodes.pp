@@ -1,6 +1,7 @@
 node 'cookbook' {
 	
 	include puppet
+	include users
 
 	file { '/tmp/test1':
 
