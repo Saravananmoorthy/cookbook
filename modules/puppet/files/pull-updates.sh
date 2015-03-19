@@ -1,3 +1,3 @@
 #!/bin/sh
-cd /home/ubuntu/puppet
+cd /vagrant/puppet
 git pull && /usr/local/bin/papply
