@@ -6,6 +6,6 @@ task :apply do
 	
 	client = ENV['CLIENT']
 	sh "git push"
-	sh "#{SSH} #{CLIENT} pull-updates"
+	sh "#{SSH} #{client} pull-updates"
 	
 end
