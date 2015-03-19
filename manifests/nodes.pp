@@ -1,6 +1,6 @@
 node 'cookbook' {
 	
-	import puppet
+	include puppet
 
 	file { '/tmp/test1':
 
